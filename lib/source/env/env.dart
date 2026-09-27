@@ -15,8 +15,8 @@ PermissionStatus? storagePermission;
 PermissionStatus? locationPermission;
 PermissionStatus? cameraPermission;
 
-double latitudePlace = -6.803123267471703;
-double longitudePlace = 108.61565805428894;
+double latitudePlace = -6.80378029980058;
+double longitudePlace = 108.61502498388693;
 
 int selectedIndex = 0;
 

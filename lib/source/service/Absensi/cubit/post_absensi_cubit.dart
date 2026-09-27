@@ -69,7 +69,7 @@ class PostAbsensiCubit extends Cubit<PostAbsensiState> {
               }
             });
           } else {
-            if (distanceInMeters <= 150) {
+            if (distanceInMeters <= 90) {
               print("bisa absen");
               emit(PostAbsensiLoading());
               repository!.postAbsensi(body, context).then((value) {
@@ -105,7 +105,7 @@ class PostAbsensiCubit extends Cubit<PostAbsensiState> {
               }
             });
           } else {
-            if (distanceInMeters <= 150) {
+            if (distanceInMeters <= 90) {
               print("bisa absen");
               emit(PostAbsensiLoading());
               var idAbsensi = pref.getString("idAbsensi");
